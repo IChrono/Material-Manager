@@ -1,0 +1,45 @@
+Personal Use License Agreement
+IMPORTANT: PLEASE READ CAREFULLY BEFORE DOWNLOADING, INSTALLING, OR USING THIS SOFTWARE.
+
+This Personal Use License Agreement ("Agreement") is a legal agreement between you ("User") and Enrico Crosato ("Licensor") for the use of the software Material-Manager ("Software"). By downloading, installing, or using the Software, you agree to be bound by the terms of this Agreement.
+
+Disclaimer
+Thank you for choosing to try our application! Please note that this is an Alpha version and as such is still under development. This means that bugs, malfunctions, and service interruptions may occur. By using this version of the app, you agree to be a voluntary tester and understand that:
+
+Some features may not be fully implemented or may not work correctly.
+Your data may not be fully secure and may be subject to loss or corruption.
+There may be frequent updates that could affect the app's functionality.
+Your feedback is extremely valuable to us and will help improve the app for the final release. Please report any issues or suggestions through [insert feedback contact method].
+
+Thank you for your support and for helping us make this application the best it can be!
+
+1. Grant of License
+The Licensor grants the User a limited, non-exclusive, non-transferable, and revocable license to download, install, and use a copy of the Software on a single personal device for personal and non-commercial purposes.
+
+2. Ownership
+The Software is owned by the Licensor and is protected by copyright laws and other intellectual property laws. The User does not acquire any ownership rights to the Software.
+
+3. Restrictions
+The User may not:
+a. Modify, adapt, translate, copy, decompile, disassemble, or create derivative works based on the Software.
+b. Distribute, sublicense, rent, sell, lease, transfer, or otherwise make the Software available to any third party.
+c. Use the Software for any commercial purpose or in violation of any law or regulation.
+
+4. Updates
+The Licensor may, at its discretion, provide updates or enhancements to the Software. Any updates provided will be subject to the terms of this Agreement unless otherwise specified.
+
+5. Limitation of Liability
+The Software is provided "as is," without warranties of any kind. The Licensor shall not be liable for any damages arising from the use or inability to use the Software, including, but not limited to, indirect, incidental, special, or consequential damages.
+
+6. Termination
+This Agreement is effective until terminated. The User may terminate this Agreement at any time by uninstalling and ceasing the use of the Software. The Licensor may terminate this Agreement immediately if the User violates any of the terms of this Agreement. Upon termination, the User must cease all use of the Software and destroy all copies of the Software in their possession.
+
+7. Miscellaneous
+a. This Agreement constitutes the entire agreement between the parties regarding the use of the Software and supersedes any prior or contemporaneous agreements.
+b. If any part of this Agreement is held to be invalid or unenforceable, the remaining provisions will remain in full force and effect.
+c. This Agreement will be governed by and construed in accordance with the laws of [State/Country], without regard to its conflict of laws principles.
+
+BY ACCEPTING THE TERMS OF THIS AGREEMENT, THE USER ACKNOWLEDGES HAVING READ AND UNDERSTOOD THIS AGREEMENT AND AGREES TO BE BOUND BY ITS TERMS.
+
+
+

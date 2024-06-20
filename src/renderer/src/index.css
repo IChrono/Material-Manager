@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+body {
+  max-width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(36, 36, 36);
+  color: white;
+}
