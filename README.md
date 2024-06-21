@@ -25,7 +25,7 @@ Key features of Material Manager include:
 - <b>Responsive UI:</b> Built using React and TypeScript, ensuring a modern and responsive user interface.
 - <b>Cross-Platform Compatibility:</b> Utilizes Electron to support Windows, macOS, and Linux platforms.
 
-### IMPLEMENTATIONS IDEA:
+### IMPLEMENTATION IDEAS:
 
 - Tool for create .json and prev.jpg files from the app
 - Tool for manipulate .json file from the app
