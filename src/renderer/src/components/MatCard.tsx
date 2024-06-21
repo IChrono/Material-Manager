@@ -13,12 +13,12 @@ const MatCard: React.FC<MatCardProps> = ({ material }) => {
   const fallbacks: Array<string> = [`${mat_folder}/prev.png`, fallbk]
 
   // put a png or a default img if the png does not exist
-  const addDefaultSrc = (e: React.SyntheticEvent<HTMLImageElement, Event>) => {
+  const addDefaultSrc = (e: React.SyntheticEvent<HTMLImageElement, Event>): void => {
     e.currentTarget.src = fallbacks[fallbackIndex]
     setFallbackIndex(fallbackIndex + 1)
   }
 
-  const sendMatToBackend = async (path) => {
+  const sendMatToBackend = (path): void => {
     window.electronAPI.getMaterial(path)
   }
 

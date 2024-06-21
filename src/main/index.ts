@@ -4,7 +4,7 @@ import { electronApp, optimizer, is } from '@electron-toolkit/utils'
 import readDirectory from '../shared/folderReader'
 import icon from '../../resources/icon.png?asset'
 
-async function handlefileOpen() {
+async function handlefileOpen(): Promise<object | undefined> {
   try {
     const { canceled, filePaths } = await dialog.showOpenDialog({
       defaultPath: 'C:\\Users',
@@ -17,10 +17,11 @@ async function handlefileOpen() {
     } else return undefined
   } catch (error) {
     console.log(`This folder doesn't contain materials ${error}`)
+    return undefined
   }
 }
 
-function handleGetMaterial(event, materialPath: string) {
+function handleGetMaterial(event, materialPath: string): void {
   console.log(materialPath)
   try {
     shell.openPath(materialPath)

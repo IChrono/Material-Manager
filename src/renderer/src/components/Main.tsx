@@ -42,7 +42,7 @@ const Main: React.FC<AppProps> = ({ materials }) => {
   // Filter materials by user input
   if (manualFilter !== '') {
     filteredMaterials = filteredMaterials?.filter((material: Material) => {
-      for (let key in material) {
+      for (const key in material) {
         if (material[key].toLowerCase().includes(manualFilter.toLowerCase())) return true
       }
     })

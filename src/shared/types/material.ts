@@ -1,5 +1,4 @@
 export type Material = {
-  [key: string]: any
   id: string
   name: string
   revision: 'sì' | 'no'

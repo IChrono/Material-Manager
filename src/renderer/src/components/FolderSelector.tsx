@@ -6,7 +6,7 @@ type HeaderProps = {
 }
 
 const FolderSelector: React.FC<HeaderProps> = ({ openFolder, folderPath }) => {
-  const handleClickOpenFolder = () => openFolder()
+  const handleClickOpenFolder = (): void => openFolder()
 
   return (
     <div className=" flex items-center">
