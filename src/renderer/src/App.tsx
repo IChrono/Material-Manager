@@ -6,6 +6,7 @@ import { Material } from 'src/shared/types/material'
 function App(): ReactElement<Element> {
   const [materials, setMaterials] = useState<Material[] | undefined>(undefined)
   const [folderPath, setFolderPath] = useState<string>('Choose materials root folder')
+  const [category, setCategory] = useState<string>('')
 
   // If user select a folder with jsons, check if the structure matches with type Material[]
   function isMaterialArray(data: any): data is Material[] {
@@ -31,6 +32,7 @@ function App(): ReactElement<Element> {
         setFolderPath(filePaths)
 
         if (isMaterialArray(materials)) {
+          setCategory('all')
           setMaterials(materials)
         } else {
           alert("This folder doesn't contain materials")
@@ -49,7 +51,7 @@ function App(): ReactElement<Element> {
   return (
     <>
       <Header openFolder={handleClickOpenFolder} folderPath={folderPath} />
-      <Main materials={materials} />
+      <Main materials={materials} category={category} setCategory={setCategory} />
     </>
   )
 }

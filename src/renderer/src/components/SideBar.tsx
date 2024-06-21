@@ -1,14 +1,14 @@
 import React from 'react'
 import { Material } from '@shared/types/material'
 type SideBarProps = {
-  changeCategory: (category: string) => void
+  setCategory: (category: string) => void
   category: string
   materials: Material[] | undefined
 }
 
-const SideBar: React.FC<SideBarProps> = ({ changeCategory, category, materials }) => {
+const SideBar: React.FC<SideBarProps> = ({ setCategory, category, materials }) => {
   const handleClickSetCategory = (category: string) => (e) => {
-    changeCategory(category)
+    setCategory(category)
     e.preventDefault
   }
 
@@ -21,21 +21,29 @@ const SideBar: React.FC<SideBarProps> = ({ changeCategory, category, materials }
   const categories: Array<string> = []
 
   materials?.forEach((element) => {
-    if (categories.includes(element.material_family)) {
+    if (!element.material_family || categories.includes(element.material_family)) {
+      console.log('caneporco')
       return
     } else {
+      console.log('porcocane')
       categories.push(element.material_family)
     }
   })
+  console.log(categories)
 
   return (
     <div className="flex-col ps-4 py-1 w-[20%] border-2 border-black rounded-lg">
       <h3 className="text-xl">CATEGORY</h3>
       <ul className="mt-6">
-        <button className={changeBtnStyle('all')} onClick={handleClickSetCategory('all')}>
-          All
-        </button>
-        {categories.map((categoryEl, index) => (
+        {materials && (
+          <li>
+            <button className={changeBtnStyle('all')} onClick={handleClickSetCategory('all')}>
+              All
+            </button>
+          </li>
+        )}
+
+        {categories?.map((categoryEl, index) => (
           <li key={index}>
             <button
               className={changeBtnStyle(categoryEl)}
